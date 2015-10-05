@@ -3,7 +3,7 @@ function fact(val){
 
   var result = val;
   for (i = val-1; i > 0; i-=1 ){
-    val = val * i;
+    result  = result * i;
   }
-  return val;
+  return result;
 }
